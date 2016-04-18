@@ -5,6 +5,7 @@ import android.view.View;
 
 /**
  * Created by yuan on 2016/4/10.
+ *主页Tab移动点击事件
  */
 public class TabOnClickListener implements View.OnClickListener {
     private int index=0;
