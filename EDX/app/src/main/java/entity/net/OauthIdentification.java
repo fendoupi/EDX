@@ -1,10 +1,12 @@
 package entity.net;
 
+import java.io.Serializable;
+
 /**
  * Created by yuan on 2016/4/18.
  * 网络获取json对应的实体类
  */
-public class OauthIdentification {
+public class OauthIdentification implements Serializable {
     /**
      * access_token : 3f5819e8d753a4770445eb64accaa59b2ee488ae
      * token_type : Bearer
