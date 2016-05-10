@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.cn.edx" >
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBar" >
+        <activity android:name=".TextActivity" >
+           <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" >
+           <!-- <intent-filter>
+             <action android:name="android.intent.action.MAIN" />
+
+             <category android:name="android.intent.category.LAUNCHER" />
+         </intent-filter>-->
+        </activity>
+        <activity android:name=".CourseActivity" >
+        </activity>
+        <activity android:name=".CourseListActivity" >
+        </activity>
+        <activity android:name=".SlideActivity.MyCourseActivity" >
+        </activity>
+        <activity android:name=".SlideActivity.SettingInfoActivity" >
+        </activity>
+        <activity android:name=".SlideActivity.SlideBbsActivity" >
+        </activity>
+        <activity android:name=".SlideActivity.SlideDawnloadActivity" >
+        </activity>
+        <activity android:name=".SlideActivity.SlideMynoteActivity" >
+        </activity>
+        <activity android:name=".SlideActivity.SlideUserInfoActivity" >
+        </activity>
+
+    </application>
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+</manifest>
